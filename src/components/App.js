@@ -1,7 +1,7 @@
 import React from 'react';
 import Madlib from '../containers/Madlib';
-import Header from '../components/Header.css';
-import Footer from '../components/Footer.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 export default function App() {

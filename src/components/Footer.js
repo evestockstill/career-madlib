@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from './Footer.css';
 
-const Footer = () => {
-  <Footer className={styles.Footer}>
-    <h3>by Eve Stockstill</h3>
-  </Footer>;
-};
-export default Footer;
+export default class Footer extends Component {
+  render() {
+    return (
+      <footer className={styles.Footer}>
+        <h3>Eve Stockstill</h3>
+      </footer>
+    );
+  }
+}

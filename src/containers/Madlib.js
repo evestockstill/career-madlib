@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Form from '../components/madlib/Form';
 import Result from '../components/madlib/Result';
 import styles from '../components/madlib/Form.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 export default class Madlib extends Component{
   state = {
     showResult: false,
