@@ -1,0 +1,15 @@
+input {
+    display: flex;
+    margin: .5rem;
+    padding: .5rem;
+}
+.container {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.madlib {
+    padding: .5rem;
+}

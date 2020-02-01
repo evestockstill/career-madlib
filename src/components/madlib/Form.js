@@ -18,7 +18,7 @@ const Form = ({ onSubmit, onChange, inputs, onReset }) => (
         <input value={inputs['9']} type="text" onChange={onChange} name="9" placeholder="adverb" />
         <input value={inputs['10']} type="text" onChange={onChange} name="10" placeholder="verb, past tense" />
         <input value={inputs['11']} type="text" onChange={onChange} name="11" placeholder="adjective" />
-        <button>Create Madlib</button>
+        <button className={styles.madlib}>Create Madlib</button>
       </div>
     </form>
     <button onClick={onReset}>Clear</button>
