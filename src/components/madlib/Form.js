@@ -20,8 +20,8 @@ const Form = ({ onSubmit, onChange, inputs, onReset }) => (
         <input value={inputs['11']} type="text" onChange={onChange} name="11" placeholder="adjective" />
         <button className={styles.madlib}>Create Madlib</button>
       </div>
+      <button className={styles.clear} onClick={onReset}>Clear</button>
     </form>
-    <button onClick={onReset}>Clear</button>
   </>
 );
 
