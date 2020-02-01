@@ -8,11 +8,9 @@ import styles from './madlib/App.css';
 export default function App() {
   return (
     <>
-      <section className={styles.container} />
       <Header />
       <Madlib />
       <Footer />
-      <section/>
     </>
   );
 }
